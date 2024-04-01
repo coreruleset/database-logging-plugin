@@ -108,7 +108,7 @@ CREATE TABLE `modsecurity_requests` (
         server_name     VARCHAR(255),
         remote_addr     VARCHAR(255),
         unique_id       VARCHAR(50),
-        response_status TINYINT,
+        response_status SMALLINT UNSIGNED,
         PRIMARY KEY(id)) ENGINE=InnoDB;
 CREATE TABLE `modsecurity_requests_rules` (
         id              INT UNSIGNED NOT NULL AUTO_INCREMENT,
