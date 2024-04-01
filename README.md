@@ -4,8 +4,8 @@
 
 This is a plugin that brings database logging to CRS.
 
-Plugin runs in phase 5 and writes all logs genereated by all rules into SQL
-database.
+Plugin runs in phase 5 (so it does not slow down the traffic) and writes all
+logs genereated by all rules into SQL database.
 
 Logs are read from memory using `WEBSERVER_ERROR_LOG` variable, so plugin does
 not need any permissions to access log files on filesystem.
