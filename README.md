@@ -80,13 +80,13 @@ Default value:
 
 Database password. Ignored for SQLite.
 
-Default:
+Default value:
 
 ### tx.database-logging-plugin_db_host
 
 Database hostname or IP address. Ignored for SQLite.
 
-Default: localhost
+Default value: localhost
 
 ### tx.database-logging-plugin_db_port
 
