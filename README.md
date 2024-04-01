@@ -135,8 +135,8 @@ CREATE TABLE `modsecurity_requests` (
         );
 CREATE TABLE `modsecurity_requests_rules` (
         id                 INTEGER PRIMARY KEY NOT NULL,
-        id_request         INTEGER NOT NULL,
-        rule_id            INTEGER,
+        id_request         INTEGER UNSIGNED NOT NULL,
+        rule_id            INTEGER UNSIGNED,
         variable           TEXT,
         message            TEXT,
         data               TEXT,
