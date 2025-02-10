@@ -147,6 +147,7 @@ CREATE TABLE `modsecurity_requests_rules` (
 ## Testing
 
 After configuration, plugin should be tested by triggering any CRS rule, for example:
+
 `curl "http://localhost/?test=/etc/passwd"`
 
 If everything works, new data will be stored into the database.
