@@ -47,7 +47,7 @@ of installation LuaDBI with MySQL driver on Debian linux:
 ## Plugin installation
 
 For full and up to date instructions for the different available plugin
-installation methods, refer to [How to Install a Plugin](https://coreruleset.org/docs/concepts/plugins/#how-to-install-a-plugin)
+installation methods, refer to [How to Install a Plugin](https://coreruleset.org/docs/4-about-plugins/4-1-plugins/#how-to-install-a-plugin)
 in the official CRS documentation.
 
 ## Configuration
@@ -146,12 +146,14 @@ CREATE TABLE `modsecurity_requests_rules` (
 
 ## Testing
 
-After configuration, plugin should be tested, for example, using:  
-...
+After configuration, plugin should be tested by triggering any CRS rule, for example:
+`curl "http://localhost/?test=/etc/passwd"`
+
+If everything works, new data will be stored into the database.
 
 ## License
 
-Copyright (c) 2024 OWASP Core Rule Set project. All rights reserved.
+Copyright (c) 2024-2025 OWASP Core Rule Set project. All rights reserved.
 
 The OWASP CRS and its official plugins are distributed
 under Apache Software License (ASL) version 2. Please see the enclosed LICENSE
