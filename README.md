@@ -98,7 +98,7 @@ Default value: 3306
 
 You need to prepare correct database structure for plugin to work.
 
-### MySQL
+### MySQL / MariaDB
 
 ```
 CREATE TABLE `modsecurity_requests` (
