@@ -154,7 +154,7 @@ If everything works, new data will be stored into the database.
 
 ## License
 
-Copyright (c) 2024-2025 OWASP Core Rule Set project. All rights reserved.
+Copyright (c) 2024-2026 OWASP Core Rule Set project. All rights reserved.
 
 The OWASP CRS and its official plugins are distributed
 under Apache Software License (ASL) version 2. Please see the enclosed LICENSE
